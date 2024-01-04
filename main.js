@@ -91,3 +91,24 @@
 
 
 
+const canvas = document.getElementById('canvas');
+const context = canvas.getContext('2d');
+// context.beginPath();
+// context.arc(288, 75, 70, 0, Math.PI, false);
+// context.closePath();
+// context.lineWidth = 5;
+// context.fillStyle = 'red';
+// context.fill();
+// context.strokeStyle = '#550000';
+// context.stroke();
+
+context.clearRect(0, 0, canvas.width, canvas.height);
+
+context.beginPath();
+context.arc(288, 75, 150, 0, Math.PI, false);
+context.closePath();
+context.lineWidth = 5;
+context.fillStyle = 'red';
+context.fill();
+context.strokeStyle = '#550000';
+context.stroke();
