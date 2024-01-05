@@ -6,6 +6,9 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  /* background-color: black; */
+  
 }
 
 body {
@@ -13,9 +16,10 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
+  /* background-color: ghostwhite; */
 }
 
-canvas{
+/* canvas{
   background-color: rgba(0, 0, 0, 0.164);
-}
+} */
 
