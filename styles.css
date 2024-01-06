@@ -8,18 +8,26 @@ html, body {
   padding: 0;
   overflow-x: hidden;
   /* background-color: black; */
-  
 }
 
-body {
+.container{
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  /* background-color: ghostwhite; */
+  height: 100vh;
+  z-index: -22;
+  position: absolute;
 }
 
-/* canvas{
-  background-color: rgba(0, 0, 0, 0.164);
-} */
+.potImage{
+  position: absolute;
+  /* z-index: -2; */
+}
 
+.pot-bg{
+  /* background-color: lime; */
+  position: relative;
+  z-index: -1;
+  height: 220px;
+}
